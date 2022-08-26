@@ -1,0 +1,108 @@
+body{
+margin: auto;
+
+}
+
+main{
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 950px;
+  margin: auto;
+
+}
+
+main div{
+    margin: 10px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100px;
+    margin-bottom: 50px;
+    padding: 15px;
+
+    
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#delicious{
+    font-size: 50px;
+    margin: 0;
+    padding:0
+}
+
+#logo-text{
+    font-size: 10px;
+    margin: 0;
+    padding:0
+}
+
+#recipe{
+    
+
+}
+
+#top{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#top-pizza{
+    
+
+}
+
+#top-print{
+  
+}
+
+#print{
+    width: 25px;
+    height: 25px;
+
+}
+
+#recipe{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.list-article{
+    
+    margin-right: 50%;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+#b-recipe{
+    background-image: url(img/list-bg.png);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#van{
+    text-align: left;
+    width: 800px;
+}
+
+.repeat{
+ background-image: url("img/hr-img.png");
+  background-repeat: repeat-x;
+}
