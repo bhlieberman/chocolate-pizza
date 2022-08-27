@@ -1,99 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav>
-        <div id="logo">
-            <div>
-                <img src="img/logo.png">
-            </div>
-            <div>
-                <h3 id="delicious">Delicious</h3>
-                <h4 id="logo-text">THE BEST FOOD BLOG ON THE WEB</h4>
-            </div>
+      <div id="logo">
+        <div>
+          <img src="img/logo.png" />
         </div>
         <div>
-            <img src="img/fb-icon.png">
-            <img src="img/twit-icon.png">
-            <img src="img/gp-icon.png">
-            <img src="img/insta-icon.png">
-            <img src="img/flic-icon.png">
-            <img src="img/pint-icon.png">
-            <img src="img/rss-icon.png">
-            <img src="img/mail-icon.png">
+          <h3 id="delicious">Delicious</h3>
+          <h4 id="logo-text">THE BEST FOOD BLOG ON THE WEB</h4>
         </div>
+      </div>
+      <div>
+        <img src="img/fb-icon.png" />
+        <img src="img/twit-icon.png" />
+        <img src="img/gp-icon.png" />
+        <img src="img/insta-icon.png" />
+        <img src="img/flic-icon.png" />
+        <img src="img/pint-icon.png" />
+        <img src="img/rss-icon.png" id="rss" />
+        <img src="img/mail-icon.png" id="mail" />
+      </div>
     </nav>
-
-    <div class="repeat">
-        <img src="img/hr-img.png">
+    <div class="repeat-one">
+      <img src="img/hr-img.png" />
     </div>
-
-
     <main>
-        <div id="top">
-            <div id="top-pizza">
-                <h2>Chocolate Pizza</h2>
-                <h4>Posted</h4>
-            </div>
-            <div id="top-print">
-                <img src="img/print-icon.png" id="print">
-                <h4>PRINT</h4>
-            </div>
+      <div id="top">
+        <div id="top-pizza">
+          <h2>Chocolate Pizza</h2>
+          <h4>Posted on 15 December 2013 / Desserts</h4>
         </div>
-        <img src="img/choco-pizza.png">
-        <article>
-            <p></p>
-            <p></p>
-            <p></p>
-        </article>
-        <div id="b-recipe">
-            <div id="recipe">
-                <article class="list-article">
-                    <ul>
-                        <li>milk</li>
-                        <li>milk</li>
-                        <li>milk</li>
-                        <li>milk</li>
-                        <li>milk</li>
-                        <li>milk</li>
-                    </ul>
-                </article>
-                <article class="list-article">
-                    <ul>
-                        <li>milk</li>
-                        <li>milk</li>
-                        <li>milk</li>
-                        <li>milk</li>
-                        <li>milk</li>
-                        <li>milk</li>
-                    </ul>
-                </article>
-            </div>
+        <div id="top-print">
+          <img src="img/print-icon.png" id="print" />
+          <h5>PRINT</h5>
         </div>
-        <div class="repeat">
-            <img src="img/hr-img.png">
+      </div>
+      <img src="img/choco-pizza.png" />
+      <article>
+        <p>
+          For the fig-swirl: Melt butter over medium heat in saucepan. Add brown
+          sugar and stir to dissolve. Halve all of the figs and toss in the
+          saucepan with water and lemon juice. Cook over medium heat, stirring
+          frequently, until you have a chunky-jammy mixture. Add salt with one
+          or two sitrs, set aside and let cool completely.
+        </p>
+        <p>
+          Ice cream: In a small pot over medium heat, combine milk, and
+          granulated sugar until sugar is completely dissolved and the milk is
+          just barely lukewarm. Whisk in the egg yolks. Set mixture in the
+          fridge and wait until the fig mixture is cooled.
+        </p>
+        <p>
+          Using an ice cream machine, pour liquids into the frozen basin and
+          process according to manufacturer instructions , i.e. let spin and
+          thicken for 20 minutes before adding mascarpone, fig jam mixure, and
+          the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen
+          mixture into the pyrex dish or glass tupperware. Freeze for at least
+          two hours before serving.
+        </p>
+      </article>
+      <div id="b-recipe">
+        <div id="recipe">
+          <article class="list-article">
+              <div class="checkbox">
+                <input type="checkbox" name="milk" />
+                <label for="milk">milk</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="mascarpone" />
+                <label for="mascarpone">mascarpone</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="pink-salt" />
+                <label for="pink-salt">pink salt</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="black-figs" />
+                <label for="black-figs">Black Mission Figs</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="brown-sugar" />
+                <label for="brown-sugar">brown sugar</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="water" />
+                <label for="water">water</label>
+              </div>
+          </article>
+          <article class="list-article">
+            <div class="checkbox">
+                <input type="checkbox" name="heavy-cream" />
+                <label for="heavy-cream">heavy cream</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="granulated-sugar" />
+                <label for="granulated-sugar">granulated sugar</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="egg-yolks" />
+                <label for="egg-yolks">egg yolks</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="lemon" />
+                <label for="lemon">lemon</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="butter" />
+                <label for="butter">butter</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" name="roasted-pecans" />
+                <label for="roasted-pecans">roasted pecans</label>
+              </div>
+          </article>
         </div>
-
-        <footer>
-            <img src="img/van-pic.png">
-            <div id="van">
-                <h3>Vaness Stevenson</h3>
-                <p id="vanp">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                    egestas.</p>
-            </div>
-
-            <button>SHARE RECIPE</button>
-        </footer>
+      </div>
+      <div class="repeat-one">
+        <img src="img/hr-img.png" />
+      </div>
     </main>
+    <footer>
+        <div id="footer-div">
+          <img src="img/van-pic.png" id="profile-pic"/>
+          <div id="van">
+            <h3>Vanessa Stevenson</h3>
+            <p id="vanp">
+              Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+            </p>
+          </div>
+          <button>SHARE RECIPE</button>
+        </div>
+        <hr>
+        <div id="actual-footer-div">
+            <div id="copyright-info">
 
-</body>
+              <img src="img/small-logo.png">
 
+            <br>
+            <span>Delicious &copy; 2013 &middot; All Rights Reserved.<span>
+                <br>
+            <span>Proudly published with Ghost.</span>
+        </div>
+        </div>
+      </footer>
+  </body>
 </html>
